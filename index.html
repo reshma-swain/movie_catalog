@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie Catalog</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Movie Catalog</h1>
+    <div class="search-bar">
+      <input type="text" id="search-input" placeholder="Search movies">
+      <select id="genre-filter">
+        <option value="">All Genres</option>
+      </select>
+      <button onclick="searchMovies()">Search</button>
+    </div>
+  </header>
+  <main>
+    <div id="movie-grid">
+      <!-- Movie posters will be dynamically generated here -->
+    </div>
+  </main>
+  <footer>
+    <div id="pagination">
+      <!-- Pagination controls will be dynamically generated here -->
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
